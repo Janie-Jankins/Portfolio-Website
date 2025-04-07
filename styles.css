@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(Assets/Images/backgorund/gabriel.jpg);
+}
 nav{
     padding-left: 980px;
 }
@@ -6,7 +12,7 @@ nav a{
 }
 .nav-container{
     display: flex;
-    background-color: dimgrey;
+    background-color:blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-container nav a{
@@ -33,6 +39,16 @@ iframe{
     display: flex;
     justify-content: center;
     gap: 40px;
+    
+}
+.aside-container aside{
+    /*color: #666;*/
+    color: #a3a3a3;
+    font-size: 22px;
+}
+
+.aside-container aside span{
+    color: #4aafd5;
 }
 
 aside{
@@ -49,12 +65,19 @@ textarea{
     width: 300px;
     height: 150px;
 }
-.title-container{
-    background-color: cadetblue;
+footer p{
+    color: whitesmoke;
 }
 footer p.b{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 footer p.c{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#About h1,h3,h4,h5{
+    color: azure;
+}
+#Contact{
+    color: azure;
 }

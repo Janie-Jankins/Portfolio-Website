@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(Assets/Images/backgorund/gabriel.jpg);
+}
+nav{
+    padding-left: 980px;
+}
+nav a{
+    margin:0 20px;
+}
+.nav-container{
+    display: flex;
+    background-color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-container nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.nav-container nav a:hover{
+    text-decoration: underline;
+    
+}
+.nav-container img{
+    margin-left: 45px;
+    border-radius: 5px;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+
+}
+.aside-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.aside-container aside{
+    /*color: #666;*/
+    color: #a3a3a3;
+    font-size: 22px;
+}
+
+.aside-container aside span{
+    color: #4aafd5;
+}
+
+aside{
+    text-align: center;
+    width: 20%;
+}
+.aside-container img{
+    border-radius: 50%;
+    margin-top: 140px;
+    margin-left: 340px;
+    box-shadow: 0 0 170px 125px rgba(0,0,0,0.3);
+}
+footer p{
+    margin-left: 50px;
+}
+textarea{
+    width: 300px;
+    height: 150px;
+}
+footer p{
+    color: whitesmoke;
+}
+footer p.b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer p.c{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#About h1,h3,h4,h5{
+    color: azure;
+}
+#Contact{
+    color: azure;
+}
